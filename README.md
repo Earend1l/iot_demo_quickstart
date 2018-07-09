@@ -3,12 +3,14 @@ GNOME Terminator configuration
 
 ## Getting Started
 
-It is advised to clone this repository into your iot_demo catkin/src directory, since this module is only useful for this particular package. You can rename it 'quickstart'
+It is advised to clone this repository into your iot_demo catkin/src directory, since this module is only useful for this particular package. You can rename it 'quickstart':
 
 ```
 roscd iot_demo
 git clone [URL] quickstart
 ```
+
+Replace [URL] by this repository's git URL.
 
 ### Prerequisites
 
@@ -27,6 +29,15 @@ You can check the version of terminator:
 ```
 terminator --version
 ```
+
+Before deploying the module, you will also need to create SSH keys for your machine and the robot. Run these commands on your machine, so that the python script (instructions.py) launched by terminator can automatically connect to the robot:
+
+```
+ssh-keygen -t rsa
+ssh-copy-id [user]@[robot]c1
+```
+
+Replace [user] with your username. Replace [robot] by max or bob. This command will ask for a password.
 
 ## Deployment
 
