@@ -34,6 +34,11 @@ Before deploying the module, you will also need to create SSH keys for your mach
 
 ```
 ssh-keygen -t rsa
+```
+
+This will generate a public key, and a private key. You can specify a name for the files in which these keys will be saved. By default, the private key will be saved as /home/[user]/.ssh/id_rsa and the public key will be saved as /home/[user]/.ssh/id_rsa.pub. Leave blank the passphrase, otherwise instead of a login and password, you will have to enter your passphrase at each SSH connexion. The next step is to copy your public key inside the /home/[user]/.ssh/authorized_keys file on the distant machine to which you wish to connect:
+
+```
 ssh-copy-id [user]@[robot]c1
 ```
 
