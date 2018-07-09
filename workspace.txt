@@ -1,0 +1,4 @@
+CURRENT WORKSPACE:
+~/manip_iot_2018
+
+
