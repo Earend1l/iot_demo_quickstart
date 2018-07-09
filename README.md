@@ -3,7 +3,7 @@ GNOME Terminator configuration
 
 ## Getting Started
 
-First you need to clone this repository inside your workspace (the folder that contains both the catkin_ws and the openrobots_ws directories):
+First you need to clone this repository inside your workspace on your computer (the folder that contains both the catkin_ws and the openrobots_ws directories):
 
 ```
 roscd
