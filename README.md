@@ -47,16 +47,15 @@ Replace [user] with your username. Replace [robot] by max or bob. This command w
 
 ## Deployment
 
-Move to your iot_demo/quickstart/ directory and set your workspace (which should be the directory that contains /catkin_ws, /openrobot_ws and setup-env.sh) using setworkspace.sh:
+Move to your iot_demo_quickstart directory and set your workspace (which should be the directory that contains /catkin_ws, /openrobot_ws and setup-env.sh) using setworkspace.sh:
 
 ```
 sh setworkspace.sh '~/example/path'
 ```
-Please note that the path you provide must be absolute (using ~ to get your home directory for example) and must not end with the character '/' (for example ~/manip_iot_2018 is correct, whereas ~/manip_iot_2018/ will not work). Then copy the premade terminator configuration file (if you have not already, please source setup-env.sh for the roscd command to work): 
+Please note that the path you provide must be absolute (using ~ to get your home directory for example) and should not end with the character '/' (for example ~/manip_iot_2018/ will work, but ~/manip_iot_2018 is better). Then copy the premade terminator configuration file: 
 
 ```
-roscd iot_demo
-cp quickstart/terminator_config ~/.config/terminator/config
+cp terminator_config ~/.config/terminator/config
 ```
 
 Use terminator layout launcher to choose the appropriate layout (if you are using terminator version 0.98):
