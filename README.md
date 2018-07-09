@@ -3,14 +3,15 @@ GNOME Terminator configuration
 
 ## Getting Started
 
-It is advised to clone this repository into your iot_demo catkin/src directory, since this module is only useful for this particular package. You can rename it 'quickstart':
+First you need to clone this repository inside your workspace (the folder that contains both the catkin_ws and the openrobots_ws directories):
 
 ```
-roscd iot_demo
-git clone [URL] quickstart
+roscd
+cd ../..
+git clone [URL]
 ```
 
-Replace [URL] by this repository's git URL.
+Replace [URL] by this repository's git URL and do not rename the created folder.
 
 ### Prerequisites
 
@@ -51,8 +52,7 @@ Move to your iot_demo/quickstart/ directory and set your workspace (which should
 ```
 sh setworkspace.sh '~/example/path'
 ```
-Please note that the path you provide must be absolute (using ~ to get your home directory for example).
-Copy the premade terminator configuration file (if you have not already, please source setup-env.sh for the roscd command to work):
+Please note that the path you provide must be absolute (using ~ to get your home directory for example) and must not end with the character '/' (for example ~/manip_iot_2018 is correct, whereas ~/manip_iot_2018/ will not work). Then copy the premade terminator configuration file (if you have not already, please source setup-env.sh for the roscd command to work): 
 
 ```
 roscd iot_demo
