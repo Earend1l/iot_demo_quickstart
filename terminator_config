@@ -100,7 +100,7 @@
       ratio = 0.5
       type = VPaned
     [[[terminal11]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'navigation' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'navigation' 'bob'")'''
       order = 0
       parent = child10
       profile = iot_demo_bob
@@ -108,7 +108,7 @@
       type = Terminal
       uuid = cd682108-b8fb-45e8-8556-907c31cf5333
     [[[terminal12]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'iot_bridge' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'iot_bridge' 'bob'")'''
       order = 1
       parent = child10
       profile = iot_demo_bob
@@ -116,7 +116,7 @@
       type = Terminal
       uuid = 01da01d8-f84f-4e9a-aed8-ff1bb138a5a6
     [[[terminal15]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'toaster' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'toaster' 'bob'")'''
       order = 0
       parent = child14
       profile = iot_demo_bob
@@ -124,7 +124,7 @@
       type = Terminal
       uuid = d6a15cd9-b2a4-4324-8186-711b9d9d5ac7
     [[[terminal17]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'optitrack' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'optitrack' 'bob'")'''
       order = 0
       parent = child16
       profile = iot_demo_bob
@@ -132,7 +132,7 @@
       type = Terminal
       uuid = 59c7a6eb-5e9a-490a-a065-bb5fff690400
     [[[terminal18]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'furniture' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'furniture' 'bob'")'''
       order = 1
       parent = child16
       profile = iot_demo_bob
@@ -140,7 +140,7 @@
       type = Terminal
       uuid = b9f5f6af-4319-460d-8c52-e235f3dfa5f1
     [[[terminal21]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'rviz' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'rviz' 'bob'")'''
       order = 0
       parent = child20
       profile = iot_demo_bob
@@ -148,7 +148,7 @@
       type = Terminal
       uuid = 77050388-9fd3-4fe4-bb7c-69b085a50d17
     [[[terminal22]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'acapela' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'acapela' 'bob'")'''
       order = 1
       parent = child20
       profile = iot_demo_bob
@@ -156,7 +156,7 @@
       type = Terminal
       uuid = d33688a6-bdf4-4817-aed9-b7e6663087b3
     [[[terminal23]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'iot_demo' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'iot_demo' 'bob'")'''
       order = 1
       parent = child19
       profile = iot_demo_bob
@@ -164,7 +164,7 @@
       type = Terminal
       uuid = a4cb4989-2139-4e69-84a7-887a06ba6e84
     [[[terminal3]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'launch_steps' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'launch_steps' 'bob'")'''
       order = 0
       parent = child2
       profile = iot_demo_bob
@@ -172,7 +172,7 @@
       type = Terminal
       uuid = a498f927-0368-4a35-852c-6c7363487899
     [[[terminal6]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'robot' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'robot' 'bob'")'''
       order = 0
       parent = child5
       profile = iot_demo_bob
@@ -180,7 +180,7 @@
       type = Terminal
       uuid = f3d27242-565c-4d64-b545-b7703f9fdd78
     [[[terminal8]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'map_server' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'map_server' 'bob'")'''
       order = 0
       parent = child7
       profile = iot_demo_bob
@@ -188,7 +188,7 @@
       type = Terminal
       uuid = 56d008f7-d3e0-427b-b210-0bd1b3ace772
     [[[terminal9]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'navigation' 'bob'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'navigation' 'bob'")'''
       order = 1
       parent = child7
       profile = iot_demo_bob
@@ -197,28 +197,28 @@
       uuid = 49c9f8a7-051a-4b38-b237-6b0608bf72c1
   [[iot_demo_max]]
     [[[terminal3]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'launch_steps' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'launch_steps' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 0
       parent = child2
       title = launch steps
     [[[terminal7]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'map_server' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'map_server' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 1
       parent = child5
       title = map_server
     [[[terminal6]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'robot' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'robot' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 0
       parent = child5
       title = robot
     [[[terminal9]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'navigation' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'navigation' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 0
@@ -250,35 +250,35 @@
       order = 0
       parent = child17
     [[[terminal10]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'iot_bridge' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'iot_bridge' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 1
       parent = child8
       title = iot_bridge
     [[[terminal13]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'toaster' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'toaster' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 0
       parent = child12
       title = toaster
     [[[terminal15]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'optitrack' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'optitrack' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 0
       parent = child14
       title = optitrack
     [[[terminal16]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'furniture' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'furniture' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 1
       parent = child14
       title = furniture
     [[[terminal19]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'rviz' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'rviz' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 0
@@ -316,14 +316,14 @@
       order = 1
       parent = child4
     [[[terminal20]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'acapela' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'acapela' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 1
       parent = child18
       title = acapela
     [[[terminal21]]]
-      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing setup-env.sh for manip_iot_2018...\n';source setup-env.sh;python $(rospack find iot_demo)/quickstart/instructions.py 'iot_demo' 'max'")'''
+      command = '''bash --rcfile <(echo ". ~/.bashrc;echo 'Changing to ~/manip_iot_2018 directory...';cd ~/manip_iot_2018;echo -e 'Sourcing ~/manip_iot_2018/setup-env.sh...\n';source setup-env.sh;python ~/manip_iot_2018/iot_demo_quickstart/instructions.py 'iot_demo' 'max'")'''
       profile = iot_demo_max
       type = Terminal
       order = 1
