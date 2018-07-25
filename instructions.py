@@ -109,7 +109,7 @@ def optitrack():
     print 'If there is an optitrack-ros node running, kill it:\n'
     print colors.BOLD + colors.BLUE + 'kill -9 [process ID]\n' + colors.ENDC
     print 'Then execute these commands to launch your own node:\n'
-    print colors.BOLD + colors.BLUE + 'optitrack-ros -b\nrosaction call /optitrack/connect \'{host: "marey", host_port: "1510", mcast: "239.192.168.30", mcast_port: "1511"}\'\n' + colors.ENDC
+    print colors.BOLD + colors.BLUE + 'optitrack-ros -b\n\nrosaction call /optitrack/connect \'{host: "marey", host_port: "1510", mcast: "239.192.168.30", mcast_port: "1511"}\'\n' + colors.ENDC
 
 # FURNITURE launch instructions
 def furniture():
