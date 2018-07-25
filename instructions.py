@@ -76,8 +76,9 @@ def iot_bridge():
 # TOASTER launch instructions
 def toaster():
     print colors.BOLD + colors.GREEN + ' - TOASTER -\n' + colors.ENDC
-    print colors.BOLD + colors.BLUE + 'cd catkin_ws/src/toaster/tools/toaster_scripts/roslaunch\nroslaunch toaster_real.launch\n' + colors.ENDC
-
+    print colors.BOLD + colors.BLUE + 'roslaunch toaster_real.launch\n' + colors.ENDC
+    os.system('cd catkin_ws/src/toaster/tools/toaster_scripts/roslaunch')
+    
 # RVIZ launch instructions
 def rviz():
     print colors.BOLD + colors.GREEN + ' - RVIZ -\n' + colors.ENDC
