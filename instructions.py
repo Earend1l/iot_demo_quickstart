@@ -57,8 +57,8 @@ def robot():
 # MAP_SERVER launch instructions
 def map_server():
     print colors.BOLD + colors.GREEN + ' - MAP_SERVER -\n' + colors.ENDC
-    print 'If the adream_apartment.yaml file is not located directly inside your workspace directory, please provide the complete path to it when executing this command.\n'
-    print colors.BOLD + colors.BLUE + 'rosrun map_server map_server adream_apartment.yaml\n' + colors.ENDC
+    print 'If the adream_apartment.yaml file is not located directly inside the openrobot_ws/data directory, please provide the complete path to it when executing this command.\n'
+    print colors.BOLD + colors.BLUE + 'rosrun map_server map_server $ROBOTPKG_BASE/data/adream_apartment.yaml\n' + colors.ENDC
     os.system('ssh -A -X ' + robot_name + 'c1')
 
 # NAVIGATION launch instructions
