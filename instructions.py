@@ -115,8 +115,9 @@ def optitrack():
 # FURNITURE launch instructions
 def furniture():
     print colors.BOLD + colors.GREEN + ' - FURNITURE -\n' + colors.ENDC
-    print colors.BOLD + colors.BLUE + 'cd catkin_ws/src/toaster/tools/toaster_scripts/shell/iot_demo\n./area_init_demo_real.sh\n' + colors.ENDC
-
+    print colors.BOLD + colors.BLUE + './area_init_demo_real.sh\n' + colors.ENDC
+    os.system('cd catkin_ws/src/toaster/tools/toaster_scripts/shell/iot_demo')
+    
 # IOT_DEMO launch instructions
 def iot_demo():
     print colors.BOLD + colors.GREEN + ' - IOT_DEMO -\n' + colors.ENDC
